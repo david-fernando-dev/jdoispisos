@@ -17,8 +17,8 @@
 }
 
 .header > :local(span) {
-    min-height: 4rem;
-    min-width: 20.0rem;
+    min-height: 2rem;
+    min-width: 10.0rem;
 }
 
 .header > nav {
