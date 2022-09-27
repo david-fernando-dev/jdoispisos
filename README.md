@@ -1,3 +1,5 @@
-<img src="./images/logotipo.png">
+<center>
+    <img src="./images/logotipo.png" width="370" height="100">
+    <p style="font-size:16px"> Instalação e manutenção de pisos laminados e pisos vinílicos. </p>
 
-<p style="display:flex; justify-content:center; font-size:16px"> Instalação e manutenção de pisos laminados e pisos vinílicos. </p>
+</center>
