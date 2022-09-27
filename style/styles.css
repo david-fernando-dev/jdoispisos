@@ -2,3 +2,26 @@
     width: 172px;
     height: min-content;
 }
+
+.navbar {
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+
+.carousel-item {
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 119%;
+}
+
+.carousel-item-1 {
+    background-image: url('../images/interior-of-living-room.jpg');
+}
+
+.carousel-item-2 {
+    background-image: url('../images/interior-wall.jpg');
+}
+
+.carousel-item-3 {
+    background-image: url('../images/leather-sofa-and-a-wooden-table.jpg');
+}
