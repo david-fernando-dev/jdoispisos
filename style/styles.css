@@ -1,6 +1,9 @@
 a {
     text-decoration:none;
 }
+a:hover {
+    color: #f0a904;
+}
 
 button {
     border: none;
