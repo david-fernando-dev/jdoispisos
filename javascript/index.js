@@ -6,7 +6,6 @@ const contactButtons = `<a href="#" class="contact">Falar com Jilmar</a>
 
 let contactVisible = false
 
-
 whatsappButton.addEventListener('click', event  => {
 
     if(contactVisible) {
