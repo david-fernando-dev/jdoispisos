@@ -1,3 +1,17 @@
+a {
+    text-decoration:none;
+}
+
+button {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    overflow: visible;
+
+    background: transparent;
+}
+
 .logotipo {
     width: 172px;
     height: min-content;
@@ -19,9 +33,59 @@
 }
 
 .carousel-item-2 {
-    background-image: url('../images/interior-wall.jpg');
+    background-image: url('../images/leather-sofa-and-a-wooden-table.jpg');
 }
 
 .carousel-item-3 {
-    background-image: url('../images/leather-sofa-and-a-wooden-table.jpg');
+    background-image: url('../images/interior-wall.jpg');
 }
+
+.whatsapp-area {
+    position: fixed;
+    z-index: 100;
+    bottom: 110px;
+    right: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.whatsapp-area > .contact {
+    display: flex;
+    width: 13rem;
+    height: 52px;
+    background-color: #fff;
+    color: #25d366;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 3px #999;
+    border-radius: 50px;
+}
+
+.whatsapp-area > .contact:hover {
+    color: #3aa562
+}
+
+.float-button{
+    display:flex;
+    position:fixed;
+    padding: 5px;
+    width:20.0rem;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+
+.float-button:hover {
+    background: #32b663;
+  }
