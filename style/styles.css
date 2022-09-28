@@ -66,7 +66,7 @@ button {
     color: #3aa562
 }
 
-.float-button{
+.whatsapp-button {
     display:flex;
     position:fixed;
     padding: 5px;
@@ -86,6 +86,6 @@ button {
     z-index:100;
   }
 
-.float-button:hover {
+.whatsapp-button:hover {
     background: #32b663;
   }
