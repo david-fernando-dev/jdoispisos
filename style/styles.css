@@ -88,4 +88,31 @@ button {
 
 .whatsapp-button:hover {
     background: #32b663;
-  }
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background: #5a5a5a;
+    color: #f0a904;
+    justify-content: space-between;
+    align-items: end;
+    height: 151px;
+    position: absolute;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+}
+
+footer > span {
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    gap: 21px;
+}
+
+footer > a {
+    float: left;
+    color: #f0a904;
+    white-space: nowrap;
+}
