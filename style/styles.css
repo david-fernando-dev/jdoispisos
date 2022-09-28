@@ -2,7 +2,7 @@ a {
     text-decoration:none;
 }
 a:hover {
-    color: #f0a904;
+    color: #fc9a00;
 }
 
 button {
@@ -41,6 +41,21 @@ button {
 
 .carousel-item-3 {
     background-image: url('../images/interior-wall.jpg');
+}
+
+.marketing {
+    display: flex;
+    flex-direction: column;
+    gap: 39px;
+    align-items: center;
+}
+
+.marketing > h1 {
+    color: #fc9a00;
+}
+
+.service > .fw-normal {
+    color: #3d3d3d
 }
 
 .whatsapp-area {
@@ -93,12 +108,29 @@ button {
     background: #32b663;
 }
 
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.service-item-1 {
+    height: 140px;
+    width: 140px;
+    background-image: url('/images/sao-paulo.jpg');
+    background-position: center;
+    background-size: 139%;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+
 footer {
     display: flex;
     width: 100%;
     padding: 10px;
-    background: #5a5a5a;
-    color: #f0a904;
+    background: #3d3d3d;
+    color: #fc9a00;
     justify-content: space-between;
     align-items: end;
     height: 151px;
@@ -116,6 +148,6 @@ footer > span {
 
 footer > a {
     float: left;
-    color: #f0a904;
+    color: #fc9a00;
     white-space: nowrap;
 }
