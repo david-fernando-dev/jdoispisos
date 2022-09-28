@@ -6,7 +6,7 @@ const contactButtons = `<a href="#" class="contact">Falar com Jilmar</a>
 
 let contactVisible = false
 
-const pagePosition = window.scrollY
+let pagePosition = window.scrollY
 const positionOfEndPage = 1186
 
 whatsappButton.addEventListener('click', () => {
@@ -19,3 +19,15 @@ whatsappButton.addEventListener('click', () => {
     contactVisible = true
     return whatsappArea.innerHTML = contactButtons
 })
+
+window.onscroll = () => {
+    pagePosition = window.scrollY
+    if(pagePosition >= positionOfEndPage){
+        whatsappButton.setAttribute('style', 'bottom: 95px')
+        whatsappArea.setAttribute('style', 'bottom: 165px')
+        return
+    }
+    whatsappButton.setAttribute('style', 'bottom: 40px')
+    whatsappArea.setAttribute('style', 'bottom: 110px')
+    return
+}
