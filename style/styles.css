@@ -1,3 +1,7 @@
+body {
+    margin-bottom: 0px;
+}
+
 a {
     text-decoration:none;
 }
@@ -187,4 +191,92 @@ footer > a {
     float: left;
     color: #fc9a00;
     white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    footer {
+        flex-direction: column;
+        gap: 10px;
+        height: 194px;
+        padding: 17px;
+    }
+    .navbar {
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+    }
+}
+
+@media (max-width: 1265px) {
+    .carousel-item {
+        background-size: 124%;
+    }
+}
+
+@media (max-width: 1151px) {
+    .carousel-item {
+        background-size: 136%;
+    }
+}
+
+@media (max-width: 1095px) {
+    .carousel-item {
+        background-size: 144%;
+    }
+}
+
+@media (max-width: 1029px) {
+    .carousel-item {
+        background-size: 153%;
+    }
+}
+
+@media (max-width: 981px) {
+    .carousel-item {
+        background-size: 161%;
+    }
+}
+
+@media (max-width: 932px) {
+    .carousel-item {
+        background-size: 170%;
+    }
+}
+
+@media (max-width: 852px) {
+    .carousel-item {
+        background-size: 186%;
+    }
+}
+
+@media (max-width: 778px) {
+    .carousel-item {
+        background-size: 203%;
+    }
+}
+
+@media (max-width: 708px) {
+    .carousel-item {
+        background-size: 223%;
+    }
+}
+
+@media (max-width: 664px) {
+    .carousel-item {
+        background-size: 239%;
+        background-position-x: 58%;
+    }
+}
+
+@media (max-width: 620px) {
+    .carousel-item {
+        background-size: 255%;
+        background-position-x: 58%;
+    }
+}
+
+@media (max-width: 542px) {
+    .carousel-item {
+        background-size: 292%;
+        background-position-x: 58%;
+    }
 }
