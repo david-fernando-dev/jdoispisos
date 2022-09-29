@@ -21,8 +21,8 @@ button {
 }
 
 .navbar {
-    padding-left: 4.5%;
-    padding-right: 4.5%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
 }
 
 .carousel-item {
@@ -46,15 +46,27 @@ button {
 .marketing {
     display: flex;
     flex-direction: column;
-    gap: 39px;
+    gap: 20px;
     align-items: center;
 }
 
-.marketing > h1 {
-    color: #fc9a00;
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.service > .fw-normal {
+.about-section {
+    padding-bottom: 65px;
+    gap: 20px
+}
+
+.about-section > p {
+    font-size: 20px;
+}
+
+.fw-normal {
     color: #3d3d3d
 }
 
@@ -123,6 +135,10 @@ button {
     background-size: 139%;
     background-repeat: no-repeat;
     border-radius: 100%;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 footer {
