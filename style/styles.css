@@ -127,14 +127,25 @@ button {
     gap: 10px;
 }
 
-.service-item-1 {
+.service-item {
     height: 140px;
     width: 140px;
-    background-image: url('/images/sao-paulo.jpg');
     background-position: center;
     background-size: 139%;
     background-repeat: no-repeat;
     border-radius: 100%;
+}
+
+.service-item-1 {
+    background-image: url('/images/worker-processing-a-floor.jpg');
+}
+
+.service-item-2 {
+    background-image: url('/images/installing-the-skirting-board.jpg');
+}
+
+.service-item-3 {
+    background-image: url('/images/sao-paulo.jpg');
 }
 
 .navbar-toggler:focus {
