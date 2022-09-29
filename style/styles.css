@@ -141,15 +141,15 @@ button {
 }
 
 .service-item-1 {
-    background-image: url('/images/worker-processing-a-floor.jpg');
+    background-image: url('../images/worker-processing-a-floor.jpg');
 }
 
 .service-item-2 {
-    background-image: url('/images/installing-the-skirting-board.jpg');
+    background-image: url('../images/installing-the-skirting-board.jpg');
 }
 
 .service-item-3 {
-    background-image: url('/images/sao-paulo.jpg');
+    background-image: url('../images/sao-paulo.jpg');
 }
 
 .navbar-toggler:focus {
