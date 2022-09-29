@@ -1,8 +1,8 @@
 const whatsappButton = document.querySelector('.whatsapp-button')
 const whatsappArea = document.querySelector('.whatsapp-area')
 
-const contactButtons = `<a href="#" class="contact">Falar com Jilmar</a>
-<a href="#" class="contact">Falar com Jean</a>`
+const contactButtons = `<a href="https://api.whatsapp.com/send?phone=5511981883661&text=Olá Jilmar! Vim pelo site JJPisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jilmar</a>
+<a href="https://api.whatsapp.com/send?phone=5511981883661&text=Olá Jean! Vim pelo site JJPisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jean</a>`
 
 let contactVisible = false
 
