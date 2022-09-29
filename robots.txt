@@ -1,8 +1,5 @@
 user-agent: *
-disallow: /icons/
 disallow: /javascript/
 disallow: /LICENSE
 disallow: /README.md
 allow: *
-
-sitemap: https://5500-davidfernandode-jjpisos-ns9qtf957tb.ws-us69.gitpod.io/sitemap.xml
