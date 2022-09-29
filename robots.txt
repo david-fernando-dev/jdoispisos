@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /icons/
+Disallow: /javascript/
+Disallow: /LICENSE
+Disallow: /README.md
+Allow: /index.html
