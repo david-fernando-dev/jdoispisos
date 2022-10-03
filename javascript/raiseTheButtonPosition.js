@@ -1,6 +1,6 @@
 function raiseTheButtonPosition(whatsappButton, whatsappArea){
     const pagePosition = window.scrollY
-    const endOfPagePosition = 744
+    const endOfPagePosition = parseInt(document.body.offsetHeight * 54.3 / 100)
     if(pagePosition >= endOfPagePosition){
         whatsappButton.setAttribute('style', 'bottom: 95px')
         whatsappArea.setAttribute('style', 'bottom: 165px')
