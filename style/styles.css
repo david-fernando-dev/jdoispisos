@@ -68,6 +68,7 @@ button {
 
 .about-section > p {
     font-size: 20px;
+    text-align: center;
 }
 
 .fw-normal {
@@ -101,23 +102,23 @@ button {
 }
 
 .whatsapp-button {
-    display:flex;
-    position:fixed;
+    display: flex;
+    position: fixed;
     padding: 5px;
-    width:20.0rem;
-    height:60px;
-    bottom:40px;
-    right:40px;
-    background-color:#25d366;
-    color:#FFF;
-    border-radius:50px;
-    text-align:center;
-    font-size:24px;
+    width: 20.0rem;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 24px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     box-shadow: 2px 2px 3px #999;
-    z-index:100;
+    z-index: 100;
   }
 
 .whatsapp-button:hover {
@@ -278,5 +279,40 @@ footer > a {
     .carousel-item {
         background-size: 292%;
         background-position-x: 58%;
+    }
+}
+
+@media (max-width: 401px) {
+    .whatsapp-button {
+        right: 34px;
+    }
+}
+
+@media (max-width: 375px) {
+    .whatsapp-button {
+        right: 21px;
+    }
+}
+
+@media (max-width: 345px) {
+    .whatsapp-button {
+        right: 20px;
+        width: 18rem;
+    }
+
+    .whatsapp-area {
+        right: 63px;
+    }
+}
+
+@media (max-width: 414px) {
+    .whatsapp-area {
+        right: 93px;
+    }
+}
+
+@media (max-width: 373px) {
+    .whatsapp-area {
+        right: 77px;
     }
 }

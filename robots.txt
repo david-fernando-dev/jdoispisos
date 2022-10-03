@@ -3,3 +3,5 @@ disallow: /javascript/
 disallow: /LICENSE
 disallow: /README.md
 allow: *
+
+sitemap: https://jdoispisos.com.br/
