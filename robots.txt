@@ -4,4 +4,4 @@ disallow: /LICENSE
 disallow: /README.md
 allow: *
 
-sitemap: https://jdoispisos.com.br/
+sitemap: http://jdoispisos.com.br/

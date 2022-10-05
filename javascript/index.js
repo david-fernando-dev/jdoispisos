@@ -13,8 +13,8 @@ const links = {
     aboutLink 
 }
 
-const contactButtons = `<a href="https://api.whatsapp.com/send?phone=5511991645108&text=Olá Jilmar! Vim pelo site JJPisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jilmar</a>
-<a href="https://api.whatsapp.com/send?phone=5511953365061&text=Olá Jean! Vim pelo site JJPisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jean</a>`
+const contactButtons = `<a href="https://api.whatsapp.com/send?phone=5511991645108&text=Olá Jilmar! Vim pelo site J2Pisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jilmar</a>
+<a href="https://api.whatsapp.com/send?phone=5511953365061&text=Olá Jean! Vim pelo site J2Pisos. Gostaria de fazer um orçamento." target="_blank" class="contact">Falar com Jean</a>`
 
 let contactVisible = false
 
